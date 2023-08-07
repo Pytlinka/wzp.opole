@@ -17,7 +17,7 @@ class NewsController extends Controller
     {
         $news=DB::table('news')
             ->where('status', '=', 'published')
-            ->orderBy('updated_at', 'desc')
+            ->orderBy('created_at', 'desc')
             -> limit(5)
             ->get();
 

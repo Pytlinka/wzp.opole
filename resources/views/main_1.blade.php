@@ -115,7 +115,7 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">O nas</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="/build" class="dropdown-item">Statut</a>
+
                                 <a href="http://wzp.opole.pl/wladze/" class="dropdown-item">Władze</a>
                                 <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <a href="http://wzp.opole.pl/dokumenty/" class="nav-item nav-link">Dokumenty</a>
-                        <a href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/" class="nav-item nav-link">Pomoc dotacje</a>
+                        <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/contact" class="nav-item nav-link">Kontakt</a>
                     </div>
@@ -143,86 +143,7 @@
     <!-- Header End -->
 
 
-    <!-- Carousel Start -->
-{{--        <div class="container-fluid p-0 mb-5">--}}
-{{--            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">--}}
-{{--                <div class="carousel-inner">--}}
-{{--                    <div class="carousel-item active">--}}
-{{--                        <img class="w-100" src="{{ asset('assets/ver1/img/carousel2a.jpg')}}" alt="" style="height: 600px;">--}}
-{{--                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                            <div class="p-3" style="max-width: 700px; margin-left: 400px;">--}}
-{{--                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">09-05-2023 Autor: Aleksandra Kmiecik</h6>--}}
 
-{{--                                <h3 class="display-3 text-white mb-4 animated slideInDown">2 Opolski Festiwal Pszczelarski</h3>--}}
-{{--                                <p>jdhajadhajdhajhd jahdjahdjadhajd hjadh jadhajdd</p>--}}
-{{--                                <p><a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">2 Opolski Festiwal Pszczelarski ku czci ks. jana Dzierżona</a></p>--}}
-{{--                                <a href="http://wzp.opole.pl/wp-content/uploads/2023/05/plakat-opole.jpg" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Więcej</a>--}}
-{{--                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="carousel-item">--}}
-{{--                        <img class="w-100" src="{{ asset('assets/ver1/img/honeycomb.jpg')}}" alt="" style="height: 600px;">--}}
-{{--                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                            <div class="p-3" style="max-width: 700px; margin-left: 400px;">--}}
-{{--                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">13-02-2023 Autor: Aleksandra Kmiecik</h6>--}}
-
-{{--                                <h1 class="display-3 text-white mb-4 animated slideInDown"> Konkurs „Opolska pszczoła miodna”</h1>--}}
-{{--                                <p><a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Urząd Marszałkowski ogłosił otwarty konkurs ofert na realizację zadania publicznego w zakresie ekologii i ochrony zwierząt</a></p>--}}
-{{--                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Więcej</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="carousel-item">--}}
-{{--                        <img class="w-100" src="{{ asset('assets/ver1/img/news_2.jpg')}}" alt="Image" style="height: 600px;">--}}
-{{--                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                            <div class="p-3" style="max-width: 700px; margin-left: 400px;">--}}
-{{--                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">16-01-2023 Autor: Aleksandra Kmiecik</h6>--}}
-
-{{--                                <h1 class="display-3 text-white mb-4 animated slideInDown">Odpowiedź MRiRW dla PZP</h1>--}}
-{{--                                <p><a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Odpowiedź Ministerstwa dot. wytycznych do interwencji w sektorze pszczelarskim</a></p>--}}
-{{--                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Więcej</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="carousel-item">--}}
-{{--                        <img class="w-100" src="{{ asset('assets/ver1/img/honeycomb_2.jpg')}}" alt="" style="height: 600px;">--}}
-{{--                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                            <div class="p-3" style="max-width: 700px; margin-left: 400px;">--}}
-{{--                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">14-12-2022 Autor: Aleksandra Kmiecik</h6>--}}
-
-{{--                                <h1 class="display-3 text-white mb-4 animated slideInDown">List gratulacyjny z Urzędu Marszałkowskiego</h1>--}}
-{{--                                <p><a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Treść listu gratulacyjnego</a></p>--}}
-{{--                                <a href="http://wzp.opole.pl/wp-content/uploads/2022/12/LIST-GRATUKACYJNY-001.jpg" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Więcej</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="carousel-item">--}}
-{{--                        <img class="w-100" src="{{ asset('assets/ver1/img/news_3.jpg')}}" alt="Image by efe_madrid" style="height: 600px;">--}}
-{{--                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                            <div class="p-3" style="max-width: 700px; margin-left: 400px;">--}}
-{{--                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">18-11-2022 Autor: Aleksandra Kmiecik</h6>--}}
-
-{{--                                <h1 class="display-3 text-white mb-4 animated slideInDown">Wojewódzkie obchody Dnia Św. Ambrożego</h1>--}}
-{{--                                <p><a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Zaproszenie na Wojewódzkie Obchody Dnia Św. Ambrożego</a></p>--}}
-{{--                                <a href="http://wzp.opole.pl/wp-content/uploads/2022/11/plakat-2-1.jpg" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Więcej</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"--}}
-{{--                        data-bs-slide="prev">--}}
-{{--                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
-{{--                    <span class="visually-hidden">Poprzedni</span>--}}
-{{--                </button>--}}
-{{--                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"--}}
-{{--                        data-bs-slide="next">--}}
-{{--                    <span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
-{{--                    <span class="visually-hidden">Następny</span>--}}
-{{--                </button>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-        <!-- Carousel End -->
 
     <!-- News Start -->
     <div class="container-xxl py-5" style="height: 950px;">
@@ -236,7 +157,7 @@
                 @foreach($news as $new)
                     @if ($new->type =='JPG' )
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 80px; ">
-                    <h6 class="section-title">{{ $new->created_at }}</h6>
+                    <h7 class="section-title text-start mb-2">{{ \Carbon\Carbon::parse($new->created_at)->format('d/m/Y') }}</h7>
                     <h6>{{ $new->author }}</h6>
                     <a class="service-item rounded hexagon" style="cursor: pointer;" href="{{ $new->image }}">
                         <span><h5 class="mb-3" >{{ $new->title }}</h5></span>
@@ -245,70 +166,29 @@
                     @endif
                         @if ($new->type =='PDF' )
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 80px; ">
-                                <h6 class="section-title">{{ $new->created_at }}</h6>
+                                <h7 class="section-title text-start mb-2">{{ \Carbon\Carbon::parse($new->created_at)->format('d/m/Y') }}</h7>
                                 <h6>{{ $new->author }}</h6>
-                                <a class="service-item rounded hexagon" style="cursor: pointer;" href="/pdf" >
+
+                                <a class="service-item rounded hexagon" style="cursor: pointer;" href="{{ $new->image }}">
                                     <span><h5 class="mb-3" >{{ $new->title }}</h5></span>
 
-{{--                                    <script>--}}
-{{--                                        PSPDFKit.load({--}}
-{{--                                            container: "#pspdfkit",--}}
-{{--                                            document: "MRiRW-dla-PZP.pdf", // Add the path to your document here.--}}
-{{--                                        })--}}
-{{--                                            .then(function(instance) {--}}
-{{--                                                console.log("PSPDFKit loaded", instance);--}}
-{{--                                            })--}}
-{{--                                            .catch(function(error) {--}}
-{{--                                                console.error(error.message);--}}
-{{--                                            });--}}
-{{--                                    </script>--}}
+
                                 </a>
                             </div>
                         @endif
                 @endforeach
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">--}}
-{{--                    <h6 class="section-title">Starsze</h6>--}}
-{{--                    <h6>Przejdź do...</h6>--}}
-{{--                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="">--}}
-{{--                        <span><h6 class="mb-3" >Archiwum aktualności</h6></span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">--}}
-{{--                    <h6 class="section-title">Starsze</h6>--}}
-{{--                    <h6>Przejdź do...</h6>--}}
-{{--                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="">--}}
-{{--                        <span><h6 class="mb-3" >Archiwum aktualności</h6></span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">--}}
-{{--                    <h6 class="section-title">Starsze</h6>--}}
-{{--                    <h6>Przejdź do...</h6>--}}
-{{--                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="">--}}
-{{--                        <span><h6 class="mb-3" >Archiwum aktualności</h6></span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">--}}
-{{--                    <h6 class="section-title">20-05-2023</h6>--}}
-{{--                    <h6>Autor: A. Kmiecik</h6>--}}
-{{--                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="">--}}
 
-{{--                        <span><h6>Autor: A. Kmiecik</h6></span>--}}
-
-{{--                        <span><h6 class="mb-3 " >Tytuł sjgdgsgsgdsgdsjdgsjgdsuidgsud ysiodsiydisyd sisiydisd</h6></span>--}}
-{{--                        --}}{{--                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title">Starsze</h6>
                     <h6>Przejdź do...</h6>
-                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="">
+                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="/build">
                         <span><h5 class="mb-3" >Archiwum aktualności</h5></span>
                     </a>
                 </div>
 
             </div>
         </div>
-        <!-- heksagony -->
+
 
     </div>
     <!-- Service End -->

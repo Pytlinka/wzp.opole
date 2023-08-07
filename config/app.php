@@ -167,7 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
         /*
          * Application Service Providers...
          */
