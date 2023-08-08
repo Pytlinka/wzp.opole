@@ -118,6 +118,7 @@
 
                                 <a href="/władze" class="dropdown-item">Władze</a>
                                 <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
+
                             </div>
                         </div>
 
@@ -125,12 +126,12 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Zdrowie pszczół</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="http://wzp.opole.pl/zdrowie-pszczol-leki/" class="dropdown-item">Lista leków</a>
+                                <a href="/leki" class="dropdown-item">Lista leków</a>
                                 <a href="/build" class="dropdown-item">Zatrucie pszczół</a>
 
                             </div>
                         </div>
-                        <a href="http://wzp.opole.pl/dokumenty/" class="nav-item nav-link">Dokumenty</a>
+                        <a href="/dokumenty" class="nav-item nav-link">Dokumenty</a>
                         <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
@@ -252,14 +253,15 @@
 
 
                             <a class="btn btn-link" href="/kontakt">Kontakt</a>
+                            <a class="btn btn-link" href="/linki">Powiązane strony</a>
 
                         </div>
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Usługi</h6>
                             <a class="btn btn-link" href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/">Pomoc przy dotacjach</a>
                             <a class="btn btn-link" href="/build">Sklep "Opolska Barć"</a>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/dokumenty/">Dokumenty</a>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/zdrowie-pszczol-leki/">Lista leków</a>
+                            <a class="btn btn-link" href="/dokumenty">Dokumenty</a>
+                            <a class="btn btn-link" href="/leki">Lista leków</a>
                             <a class="btn btn-link" href="/build">Edukacja</a>
                             <a class="btn btn-link" href="/build">Giełda</a>
                         </div>

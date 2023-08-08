@@ -33,6 +33,17 @@ Route::get('/kontakt', function () {
     return view('contact_1');
 });
 
+Route::get('/linki', function () {
+    return view('link');
+});
+
+Route::get('/dokumenty', function () {
+    return view('docs');
+});
+
+Route::get('/leki', function () {
+    return view('medicine');
+});
 
 Route::get('/władze', function () {
     return view('władze');

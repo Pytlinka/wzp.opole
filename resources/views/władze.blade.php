@@ -142,7 +142,7 @@
     <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});">
         <div class="container-fluid page-header py-5">
             <div class="container text-center pb-5">
-                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="zarząd">Zarząd</h1>
+                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="władze">Zarząd</h1>
 
             </div>
         </div>
