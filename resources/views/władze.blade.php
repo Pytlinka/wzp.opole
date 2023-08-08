@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WZP Opole</title>
+    <title>WZP w Opolu</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('assets/ver1/img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('assets/ver1/img/favicon.ico')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,32 +91,27 @@
 
             </div>
             <div class="col-lg-1 bg d-none d-lg-block" >
-                <a href="/" class="navbar-brand w-150 h-150 m-0 p-0 d-flex align-items-center justify-content-center">
+                <a href="/1" class="navbar-brand w-150 h-150 m-0 p-0 d-flex align-items-center justify-content-center">
                     <img src="{{asset('assets/ver1/img/herb.png') }}" style="height:150px; margin-right: 90px; margin-top: 40px; margin-bottom: 30px;">
 
                 </a>
             </div>
 
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}}); ">
-                <a href="/" class="navbar-brand d-block d-lg-none">
-{{--                    <h1 class="m-0 text-primary text-uppercase">WZP w Opolu</h1>--}}
-                </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});">
+
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="nav-item dropdown">
 
                     </div>
                     <div class="navbar-nav mr-auto py-1">
-                        <a href="/" class="nav-item nav-link active">Strona główna</a>
+                        <a href="/" class="nav-item nav-link">Strona główna</a>
 
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">O nas</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">O nas</a>
                             <div class="dropdown-menu rounded-0 m-0">
 
-                                <a href="/władze" class="dropdown-item">Władze</a>
+                                <a href="#" class="dropdown-item">Władze</a>
                                 <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
@@ -131,7 +126,7 @@
                             </div>
                         </div>
                         <a href="http://wzp.opole.pl/dokumenty/" class="nav-item nav-link">Dokumenty</a>
-                        <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
+                        <a href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
                     </div>
@@ -143,77 +138,131 @@
     <!-- Header End -->
 
 
-
-
-    <!-- News Start -->
-    <div class="container-xxl py-5" style="height: 950px;">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 50px;" id="aktualności">Aktualności</h4>
-{{--                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>--}}
-            </div>
-{{--            @foreach($news as $new)--}}
-            <div class="row g-4">
-                @foreach($news as $new)
-                    @if ($new->type =='JPG' )
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 80px; ">
-                    <h7 class="section-title text-start mb-2">{{ \Carbon\Carbon::parse($new->created_at)->format('d/m/Y') }}</h7>
-                    <h6>{{ $new->author }}</h6>
-                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="{{ $new->image }}">
-                        <span><h5 class="mb-3" >{{ $new->title }}</h5></span>
-                    </a>
-                </div>
-                    @endif
-                        @if ($new->type =='PDF' )
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 80px; ">
-                                <h7 class="section-title text-start mb-2">{{ \Carbon\Carbon::parse($new->created_at)->format('d/m/Y') }}</h7>
-                                <h6>{{ $new->author }}</h6>
-
-                                <a class="service-item rounded hexagon" style="cursor: pointer;" href="{{ $new->image }}">
-                                    <span><h5 class="mb-3" >{{ $new->title }}</h5></span>
-
-
-                                </a>
-                            </div>
-                        @endif
-                @endforeach
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title">Starsze</h6>
-                    <h6>Przejdź do...</h6>
-                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="/build">
-                        <span><h5 class="mb-3" >Archiwum aktualności</h5></span>
-                    </a>
-                </div>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});">
+        <div class="container-fluid page-header py-5">
+            <div class="container text-center pb-5">
+                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="zarząd">Zarząd</h1>
 
             </div>
         </div>
+    </div>
+    <!-- Page Header End -->
 
+    <!-- hex img Start -->
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 30px;">Biuro WZP </h4>
+        <h1 class="mb-5">czynne: <span class="text-primary text-uppercase">wtorek, środa, czwartek - 8:30 do 14:30.</span></h1>
+        <h1 class="mb-5">poniediałek, piątek <span class="text-primary text-uppercase">– dni bez interesantów</span></h1>
 
     </div>
-    <!-- Service End -->
 
 
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
 
-
-        <!-- Newsletter Start -->
-        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="row justify-content-center">
-                <div class="">
-                    <div class="">
-                        <div class="bg-black rounded text-center p-5">
-{{--                                                    <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>--}}
-                            <div class="position-relative mx-auto" style="max-width: 400px;">
-{{--                                                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">--}}
-{{--                                                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>--}}
+                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-left: 210px;">
+                    <div class="rounded shadow overflow-hidden">
+                        <div class="hex">
+                            <div class="hex-background">
+                                <img src="{{ asset('assets/ver1/img/a_ozog.jpg') }}">
                             </div>
+                        </div>
+                        <div class="text-center p-3 mt-2">
+                             <h5 class="fw-bold mb-0">Prezes <br>Antoni Ożóg</h5>
+                             <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>+48 881 442 420</p> </small>
+                             <small><p class="mb-0"><i class="fa fa-envelope text-primary me-2"></i>antoniozog@o2.pl</p> </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded shadow overflow-hidden">
+                        <div class="hex">
+                            <div class="hex-background">
+                                <img src="{{ asset('assets/ver1/img/h_nosewicz.jpg') }}">
+                            </div>
+                        </div>
+                        <div class="text-center p-3 mt-2">
+                            <h5 class="fw-bold mb-0">Wiceprezes<br> Henryk Nosewicz</h5>
+                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>509 669 071</p> </small>
+                            <small style="visibility: hidden;"><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2" style="visibility: hidden;"></i>509 669 071</p> </small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded shadow overflow-hidden">
+                        <div class="hex">
+                            <div class="hex-background">
+                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
+                            </div>
+                        </div>
+                        <div class="text-center p-3 mt-2">
+                            <h5 class="fw-bold mb-0">Skarbnik<br> Konrad Tietz</h5>
+                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>665 317 586</p> </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded shadow overflow-hidden">
+                        <div class="hex">
+                            <div class="hex-background">
+                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
+                            </div>
+                        </div>
+                        <div class="text-center p-3 mt-2">
+                            <h5 class="fw-bold mb-0">Sekretarz <br>Janusz Iwasieczko</h5>
+                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>667 801 920</p> </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded shadow overflow-hidden">
+                        <div class="hex">
+                            <div class="hex-background">
+                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
+                            </div>
+                        </div>
+                        <div class="text-center p-3 mt-2">
+                            <h5 class="fw-bold mb-0">Członek Zarządu<br> Jolanta Wojewódka</h5>
+                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>662 025 538</p> </small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Newsletter Start -->
+    </div>
 
+
+
+
+
+
+
+
+
+
+
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="">
+                <div class="">
+                    <div class="bg-black rounded text-center p-5">
+                        {{--                        <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>--}}
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            {{--                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">--}}
+                            {{--                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>--}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
 
 
     <!-- Footer Start -->
@@ -246,10 +295,9 @@
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
-                            <a class="btn btn-link" href="/wladze">Władze</a>
+                            <a class="btn btn-link" href="#władze">Władze</a>
                             <a class="btn btn-link" href="http://wzp.opole.pl/kola-pszczelarzy/">Koła terenowe</a>
-                            <a class="btn btn-link" href="#aktualności">Aktualności</a>
-
+                            <a class="btn btn-link" href="/">Aktualności</a>
 
                             <a class="btn btn-link" href="/kontakt">Kontakt</a>
 
@@ -302,13 +350,6 @@
 
 <!-- Template Javascript -->
 <script src="{{ asset('assets/ver1/js/main.js')}}"></script>
-
-<!-- PDF -->
-<script src="{{ asset('assets/pspdfkit.js')}}"></script>
-
 </body>
 
 </html>
-
-
-

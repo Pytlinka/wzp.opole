@@ -29,10 +29,14 @@ Route::get('/test', function () {
     return view('test_index');
 });
 
-Route::get('/contact', function () {
+Route::get('/kontakt', function () {
     return view('contact_1');
 });
 
+
+Route::get('/władze', function () {
+    return view('władze');
+});
 /*Route::get('/2', function () {
     return view('main_2');
 });*/

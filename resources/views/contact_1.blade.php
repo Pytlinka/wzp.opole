@@ -282,11 +282,11 @@
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
-                            <a class="btn btn-link" href="http://wzp.opole.pl/wladze/">Władze</a>
+                            <a class="btn btn-link" href="/władze">Władze</a>
                             <a class="btn btn-link" href="http://wzp.opole.pl/kola-pszczelarzy/">Koła terenowe</a>
-                            <a class="btn btn-link" href="">Aktualności</a>
-                            <a class="btn btn-link" href="/build">Statut</a>
-                            <a class="btn btn-link" href="/build">Polityka prywatności</a>
+                            <a class="btn btn-link" href="/">Aktualności</a>
+
+
                             <a class="btn btn-link" href="#dane_kontaktowe">Kontakt</a>
 
                         </div>

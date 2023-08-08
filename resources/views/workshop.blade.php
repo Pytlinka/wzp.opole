@@ -110,8 +110,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">O nas</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="/build" class="dropdown-item">Statut</a>
-                                <a href="http://wzp.opole.pl/wladze/" class="dropdown-item">Władze</a>
+
+                                <a href="/władze" class="dropdown-item">Władze</a>
                                 <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                         <a href="http://wzp.opole.pl/dokumenty/" class="nav-item nav-link">Dokumenty</a>
                         <a href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
-                        <a href="/contact" class="nav-item nav-link">Kontakt</a>
+                        <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
                     </div>
                     <a href="/build" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block" style="font-weight: bold; "> Do sklepu<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
