@@ -41,12 +41,16 @@ Route::get('/dokumenty', function () {
     return view('docs');
 });
 
+Route::get('/edukacja', function () {
+    return view('edu');
+});
+
 Route::get('/leki', function () {
     return view('medicine');
 });
 
 Route::get('/władze', function () {
-    return view('władze');
+    return view('authority');
 });
 /*Route::get('/2', function () {
     return view('main_2');

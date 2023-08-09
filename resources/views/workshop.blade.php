@@ -97,7 +97,7 @@
                 </a>
             </div>
 
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});" title="Obraz autorstwa pikisuperstar na Freepik">
 
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -112,21 +112,21 @@
                             <div class="dropdown-menu rounded-0 m-0">
 
                                 <a href="/władze" class="dropdown-item">Władze</a>
-                                <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
+                                <a href="/build" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
 
-                        <a href="/build" class="nav-item nav-link">Edukacja</a>
+                        <a href="/edukacja" class="nav-item nav-link">Edukacja</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Zdrowie pszczół</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="http://wzp.opole.pl/zdrowie-pszczol-leki/" class="dropdown-item">Lista leków</a>
+                                <a href="/leki" class="dropdown-item">Lista leków</a>
                                 <a href="/build" class="dropdown-item">Zatrucie pszczół</a>
 
                             </div>
                         </div>
-                        <a href="http://wzp.opole.pl/dokumenty/" class="nav-item nav-link">Dokumenty</a>
-                        <a href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/" class="nav-item nav-link">Pomoc dotacje</a>
+                        <a href="/dokumenty" class="nav-item nav-link">Dokumenty</a>
+                        <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
                     </div>
@@ -141,7 +141,7 @@
         <!-- Video Start -->
             <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
                 <div class="row g-0">
-                    <div class="col-md-6 d-flex align-items-center" style="background-image: url({{ asset('assets/ver1/img/bg_1a.jpg')}});">
+                    <div class="col-md-6 d-flex align-items-center" style="background-image: url({{ asset('assets/ver1/img/bg_1a.jpg')}})" title= "Obraz autorstwa starlinena Freepik">
                         <div class="p-5">
 {{--                            <h6 class="section-title text-start text-white text-uppercase mb-3">Luxury Living</h6>--}}
                             <h1 class="text-black mb-4" style="text-align: center; ">Strona w budowie</h1>

@@ -97,7 +97,7 @@
                 </a>
             </div>
 
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}}); ">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}}); "title="Obraz autorstwa pikisuperstar na Freepik"
                 <a href="/" class="navbar-brand d-block d-lg-none">
 {{--                    <h1 class="m-0 text-primary text-uppercase">WZP w Opolu</h1>--}}
                 </a>
@@ -117,12 +117,12 @@
                             <div class="dropdown-menu rounded-0 m-0">
 
                                 <a href="/władze" class="dropdown-item">Władze</a>
-                                <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
+                                <a href="/build" class="dropdown-item">Koła pszczelarskie</a>
 
                             </div>
                         </div>
 
-                        <a href="/build" class="nav-item nav-link">Edukacja</a>
+                        <a href="/edukacja" class="nav-item nav-link">Edukacja</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Zdrowie pszczół</a>
                             <div class="dropdown-menu rounded-0 m-0">
@@ -248,7 +248,7 @@
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
                             <a class="btn btn-link" href="/wladze">Władze</a>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/kola-pszczelarzy/">Koła terenowe</a>
+                            <a class="btn btn-link" href="/build">Koła terenowe</a>
                             <a class="btn btn-link" href="#aktualności">Aktualności</a>
 
 
@@ -258,11 +258,11 @@
                         </div>
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Usługi</h6>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/">Pomoc przy dotacjach</a>
+                            <a class="btn btn-link" href="/build">Pomoc przy dotacjach</a>
                             <a class="btn btn-link" href="/build">Sklep "Opolska Barć"</a>
                             <a class="btn btn-link" href="/dokumenty">Dokumenty</a>
                             <a class="btn btn-link" href="/leki">Lista leków</a>
-                            <a class="btn btn-link" href="/build">Edukacja</a>
+                            <a class="btn btn-link" href="/edukacja">Edukacja</a>
                             <a class="btn btn-link" href="/build">Giełda</a>
                         </div>
                     </div>

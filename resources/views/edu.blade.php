@@ -71,23 +71,23 @@
                             <p class="mb-0">77 445 50 75</p>
                         </div>
                         <div class="h-100 d-inline-flex align-items-center py-2 me-3">
-                                <a href="https://www.facebook.com/WZPwOpolu"><i class="fab fa-facebook-f"></i>acebook</a>
-                                {{--                            <a class="me-3" href=""><i class="fab fa-twitter"></i></a>--}}
-                                {{--                            <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>--}}
-                                {{--                            <a class="me-3" href=""><i class="fab fa-instagram"></i></a>--}}
-                                {{--                            <a class="" href=""><i class="fab fa-youtube"></i></a>--}}
-                            </div>
+                            <a href="https://www.facebook.com/WZPwOpolu"><i class="fab fa-facebook-f"></i>acebook</a>
+                            {{--                            <a class="me-3" href=""><i class="fab fa-twitter"></i></a>--}}
+                            {{--                            <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>--}}
+                            {{--                            <a class="me-3" href=""><i class="fab fa-instagram"></i></a>--}}
+                            {{--                            <a class="" href=""><i class="fab fa-youtube"></i></a>--}}
+                        </div>
 
                     </div>
                 </div>
 
-               <div class="align-items-center justify-content-center">
+                <div class="align-items-center justify-content-center">
 
-                   <br><h1 class=" text-primary text-uppercase" style="margin-right: 90px; margin-top: 30px; margin-bottom: 30px; text-align: center;" >Wojewódzki Związek Pszczelarzy<br> w Opolu </h1>
+                    <br><h1 class=" text-primary text-uppercase" style="margin-right: 90px; margin-top: 30px; margin-bottom: 30px; text-align: center;" >Wojewódzki Związek Pszczelarzy<br> w Opolu </h1>
 
-{{--                   <h2 class="m-0 text-primary text-uppercase" ><img src="{{asset('assets/ver1/img/herb.png') }}" style="height:120px;" > </h2>--}}
+                    {{--                   <h2 class="m-0 text-primary text-uppercase" ><img src="{{asset('assets/ver1/img/herb.png') }}" style="height:120px;" > </h2>--}}
 
-               </div>
+                </div>
 
             </div>
             <div class="col-lg-1 bg d-none d-lg-block" >
@@ -111,12 +111,12 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">O nas</a>
                             <div class="dropdown-menu rounded-0 m-0">
 
-                                <a href="/wladze" class="dropdown-item">Władze</a>
+                                <a href="/władze" class="dropdown-item">Władze</a>
                                 <a href="/build" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
 
-                        <a href="/edukacja" class="nav-item nav-link">Edukacja</a>
+                        <a href="#" class="nav-item nav-link active">Edukacja</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Zdrowie pszczół</a>
                             <div class="dropdown-menu rounded-0 m-0">
@@ -128,7 +128,7 @@
                         <a href="/dokumenty" class="nav-item nav-link">Dokumenty</a>
                         <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
-                        <a href="#" class="nav-item nav-link active">Kontakt</a>
+                        <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
                     </div>
                     <a href="/build" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block" style="font-weight: bold; "> Do sklepu<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
@@ -142,95 +142,61 @@
     <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});" title="Obraz autorstwa dgim-studio na Freepik">
         <div class="container-fluid page-header py-5">
             <div class="container text-center pb-5">
-                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;">Kontakt</h1>
-{{--                <nav aria-label="breadcrumb">--}}
-{{--                    <ol class="breadcrumb justify-content-center text-uppercase">--}}
-{{--                        <li class="breadcrumb-item"><a href="/1" style="color: black;">Strona główna</a></li>--}}
+                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="edukacja">Edukacja</h1>
 
-{{--                        <li class="breadcrumb-item text-white active" aria-current="page">Kontakt</li>--}}
-{{--                    </ol>--}}
-{{--                </nav>--}}
             </div>
         </div>
     </div>
     <!-- Page Header End -->
 
+    <!-- hex img Start -->
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 30px;">Materiały edukacyjne </h4>
 
 
-    <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="section-title text-center text-primary text-uppercase" id="dane_kontaktowe" style="margin-bottom: 20px;">Skontaktuj się z nami</h1>
-                {{--<h1 class="mb-5"><span class="text-primary text-uppercase">Contact</span> For Any Query</h1>--}}
+    </div>
+
+
+    <!-- Video Start -->
+    <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+        <div class="row g-0">
+            <div class="col-md-6 d-flex align-items-center" style="background-image: url({{ asset('assets/ver1/img/bg_1a.jpg')}});" title= "Obraz autorstwa starlinena Freepik">
+                <div class="p-5">
+                    <h6 class="section-title text-start text-black text-uppercase mb-3">Materiał video</h6>
+                    <h1 class="text-black mb-4">Zgnilec amerykański - Andrzej Bober</h1>
+                    <p class="text-black mb-4">Akademia Pszczelarza zaprasza na "Rozmowy o pszczołach", w tym odcinku rozmawiamy z lek. wet. Andrzejem Boberem z Zakładu Chorób Pszczół Państwowego Instytutu Weterynarii w Puławach. Z naszym gościem o zgnilcu europejskim, amerykańskim, diagnostyce oraz leczeniu rozmawia Michał Kolasa. </p>
+{{--                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Our Rooms</a>--}}
+{{--                    <a href="" class="btn btn-light py-md-3 px-md-5">Book A Room</a>--}}
+                </div>
             </div>
-            <div class="row g-4">
-                <div class="col-12">
-                    <div class="row gy-4">
-                        <div class="col-md-4">
-                            <h6 class="section-title text-start text-primary text-uppercase">Biuro WZP w Opolu</h6>
-                            <p><i class="fa fa-envelope-open text-primary me-2"></i>op.barc_wzp@wp.pl</p>
-                            <h6 class="section-title text-start text-primary text-uppercase">Biuro czynne:</h6>
-                            <p><i class="fa fa-building text-primary me-2"></i>wtorek, środa, czwartek w godzinach</br> od 8:30 do 14:30</p>
-                            <p><i class="fa fa-building text-primary me-2"></i>poniedziałek, piątek – dni bez interesantów.</p>
-
-                        </div>
-                        <div class="col-md-4">
-
-                        </div>
-                        <div class="col-md-4">
-                            <h6 class="section-title text-start text-primary text-uppercase">Sklep „Opolska Barć”</h6>
-                            <p><i class="fa fa-envelope-open text-primary me-2"></i>sklep@wzp.opole.pl</p>
-                            <h6 class="section-title text-start text-primary text-uppercase">Sklep czynny:</h6>
-                            <p><i class="fa fa-building text-primary me-2"></i>poniedziałek – piątek w godzinach 8:00 – 16:00</p>
-                        </div>
-                    </div>
+            <div class="col-md-6">
+                <div class="video">
+                    <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/watch?v=sImzl42vGBM" data-bs-target="#videoModal">
+                        <span></span>
+                    </button>
                 </div>
-                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
-                    <iframe class="position-relative rounded w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.5473702784648!2d17.91509861562443!3d50.67266397950661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710530e9878f27f%3A0x982530cb6bbdeb4!2sWojew%C3%B3dzki%20Zwi%C4%85zek%20Pszczelarzy%20w%20Opolu!5e0!3m2!1spl!2spl!4v1680091337901!5m2!1spl!2spl"
-                            frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
-                </div>
-{{--                <div class="col-md-6">--}}
-{{--                    <div class="wow fadeInUp" data-wow-delay="0.2s">--}}
-{{--                        <form>--}}
-{{--                            <div class="row g-3">--}}
-{{--                                <div class="col-md-6">--}}
-{{--                                    <div class="form-floating">--}}
-{{--                                        <input type="text" class="form-control" id="name" placeholder="Your Name">--}}
-{{--                                        <label for="name">Imię i nazwisko</label>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-md-6">--}}
-{{--                                    <div class="form-floating">--}}
-{{--                                        <input type="email" class="form-control" id="email" placeholder="Your Email">--}}
-{{--                                        <label for="email">Adres email</label>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-12">--}}
-{{--                                    <div class="form-floating">--}}
-{{--                                        <input type="text" class="form-control" id="subject" placeholder="Subject">--}}
-{{--                                        <label for="subject">Temat</label>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-12">--}}
-{{--                                    <div class="form-floating">--}}
-{{--                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>--}}
-{{--                                        <label for="message">Treść</label>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-12">--}}
-{{--                                    <button class="btn btn-primary w-100 py-3" type="submit">Wyślij wiadomość</button>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </form>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sImzl42vGBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Start -->
+
 
 
     <!-- Newsletter Start -->
@@ -239,10 +205,10 @@
             <div class="">
                 <div class="">
                     <div class="bg-black rounded text-center p-5">
-{{--                        <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>--}}
+                        {{--                        <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>--}}
                         <div class="position-relative mx-auto" style="max-width: 400px;">
-{{--                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">--}}
-{{--                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>--}}
+                            {{--                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">--}}
+                            {{--                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>--}}
                         </div>
                     </div>
                 </div>
@@ -283,20 +249,19 @@
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
                             <a class="btn btn-link" href="/władze">Władze</a>
-                            <a class="btn btn-link" href="/build">Koła terenowe</a>
+                            <a class="btn btn-link" href="http://wzp.opole.pl/kola-pszczelarzy/">Koła terenowe</a>
                             <a class="btn btn-link" href="/">Aktualności</a>
 
-
-                            <a class="btn btn-link" href="#dane_kontaktowe">Kontakt</a>
+                            <a class="btn btn-link" href="/kontakt">Kontakt</a>
 
                         </div>
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Usługi</h6>
-                            <a class="btn btn-link" href="/build">Pomoc przy dotacjach</a>
+                            <a class="btn btn-link" href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/">Pomoc przy dotacjach</a>
                             <a class="btn btn-link" href="/build">Sklep "Opolska Barć"</a>
                             <a class="btn btn-link" href="/dokumenty">Dokumenty</a>
                             <a class="btn btn-link" href="/leki">Lista leków</a>
-                            <a class="btn btn-link" href="/edukacja">Edukacja</a>
+                            <a class="btn btn-link" href="#edukacja">Edukacja</a>
                             <a class="btn btn-link" href="/build">Giełda</a>
                         </div>
                     </div>

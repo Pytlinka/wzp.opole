@@ -97,7 +97,7 @@
                 </a>
             </div>
 
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});" title="Obraz autorstwa pikisuperstar na Freepik">
 
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -112,11 +112,11 @@
                             <div class="dropdown-menu rounded-0 m-0">
 
                                 <a href="/władze" class="dropdown-item">Władze</a>
-                                <a href="http://wzp.opole.pl/kola-pszczelarzy/" class="dropdown-item">Koła pszczelarskie</a>
+                                <a href="/build" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
 
-                        <a href="/build" class="nav-item nav-link">Edukacja</a>
+                        <a href="/edukacja" class="nav-item nav-link">Edukacja</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Zdrowie pszczół</a>
                             <div class="dropdown-menu rounded-0 m-0">
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <a href="#" class="nav-item nav-link active">Dokumenty</a>
-                        <a href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/" class="nav-item nav-link">Pomoc dotacje</a>
+                        <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
                     </div>
@@ -139,7 +139,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});">
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});" title="Obraz autorstwa dgim-studio na Freepik">
         <div class="container-fluid page-header py-5">
             <div class="container text-center pb-5">
                 <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="dokumenty">Lista dokumentów</h1>
@@ -264,7 +264,7 @@
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
                             <a class="btn btn-link" href="/władze">Władze</a>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/kola-pszczelarzy/">Koła terenowe</a>
+                            <a class="btn btn-link" href="/build">Koła terenowe</a>
                             <a class="btn btn-link" href="/">Aktualności</a>
 
                             <a class="btn btn-link" href="/kontakt">Kontakt</a>
@@ -272,11 +272,11 @@
                         </div>
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Usługi</h6>
-                            <a class="btn btn-link" href="http://wzp.opole.pl/category/aktualnosci/pomoc-dotacje/">Pomoc przy dotacjach</a>
+                            <a class="btn btn-link" href="/build">Pomoc przy dotacjach</a>
                             <a class="btn btn-link" href="/build">Sklep "Opolska Barć"</a>
                             <a class="btn btn-link" href="#dokumenty">Dokumenty</a>
                             <a class="btn btn-link" href="/leki">Lista leków</a>
-                            <a class="btn btn-link" href="/build">Edukacja</a>
+                            <a class="btn btn-link" href="/edukacja">Edukacja</a>
                             <a class="btn btn-link" href="/build">Giełda</a>
                         </div>
                     </div>
