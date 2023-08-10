@@ -146,11 +146,12 @@
 
 
 
+
     <!-- News Start -->
-    <div class="container-xxl py-5" style="height: 950px;">
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 50px;" id="aktualności">Aktualności</h4>
+                <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 50px; text-align: center" id="aktualności">Aktualności</h4>
 {{--                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>--}}
             </div>
 {{--            @foreach($news as $new)--}}
@@ -182,7 +183,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title">Starsze</h6>
                     <h6>Przejdź do...</h6>
-                    <a class="service-item rounded hexagon" style="cursor: pointer;" href="/build">
+                    <a class="service-item rounded hexagon" style="cursor: pointer; margin-bottom: 20px;" href="/build">
                         <span><h5 class="mb-3" >Archiwum aktualności</h5></span>
                     </a>
                 </div>

@@ -95,10 +95,16 @@
                     <img src="{{asset('assets/ver1/img/herb.png') }}" style="height:150px; margin-right: 90px; margin-top: 40px; margin-bottom: 30px;">
 
                 </a>
+
             </div>
 
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});" title="Obraz autorstwa pikisuperstar na Freepik">
-
+                <a href="/" class="navbar-brand d-block d-lg-none">
+                    {{--                    <h1 class="m-0 text-primary text-uppercase">WZP w Opolu</h1>--}}
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="nav-item dropdown">
