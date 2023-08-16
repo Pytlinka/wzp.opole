@@ -178,6 +178,18 @@
                                 </a>
                             </div>
                         @endif
+                        @if ($new->type =='OTHER' )
+                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 80px; ">
+                                <h7 class="section-title text-start mb-2">{{ \Carbon\Carbon::parse($new->created_at)->format('d/m/Y') }}</h7>
+                                <h6>{{ $new->author }}</h6>
+
+                                <a class="service-item rounded hexagon" style="cursor: pointer;" href="/detale">
+                                    <span><h5 class="mb-3" >{{ $new->title }}</h5></span>
+
+
+                                </a>
+                            </div>
+                        @endif
                 @endforeach
 
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

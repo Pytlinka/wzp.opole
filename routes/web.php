@@ -49,6 +49,10 @@ Route::get('/leki', function () {
     return view('medicine');
 });
 
+Route::get('/detale', function () {
+    return view('gallery');
+});
+
 Route::get('/władze', function () {
     return view('authority');
 });

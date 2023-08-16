@@ -30,6 +30,12 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/ver1/css/style.css')}}" rel="stylesheet">
+
+    <!-- Gallery Stylesheet -->
+    <link href="{{ asset('assets/gallery/lightbox2/css/lightbox.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/gallery/gallery.css')}}" rel="stylesheet">
+    <script src="{{ asset('assets/gallery/lightbox2/js/lightbox-plus-jquery.min.js')}}"></script>
+
 </head>
 
 <body>
@@ -95,7 +101,6 @@
                     <img src="{{asset('assets/ver1/img/herb.png') }}" style="height:150px; margin-right: 90px; margin-top: 40px; margin-bottom: 30px;">
 
                 </a>
-
             </div>
 
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-2 p-lg-0" style="background-image: url({{ asset('assets/ver1/img/nav_2c.jpg')}});" title="Obraz autorstwa pikisuperstar na Freepik">
@@ -111,13 +116,13 @@
 
                     </div>
                     <div class="navbar-nav mr-auto py-1">
-                        <a href="/" class="nav-item nav-link">Strona główna</a>
+                        <a href="/" class="nav-item nav-link active">Strona główna</a>
 
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">O nas</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">O nas</a>
                             <div class="dropdown-menu rounded-0 m-0">
 
-                                <a href="#" class="dropdown-item">Władze</a>
+                                <a href="/władze" class="dropdown-item">Władze</a>
                                 <a href="/build" class="dropdown-item">Koła pszczelarskie</a>
                             </div>
                         </div>
@@ -131,7 +136,7 @@
 
                             </div>
                         </div>
-                        <a href="/dokumenty" class="nav-item nav-link">Dokumenty</a>
+                        <a href="#" class="nav-item nav-link">Dokumenty</a>
                         <a href="/build" class="nav-item nav-link">Pomoc dotacje</a>
                         <a href="/build" class="nav-item nav-link">Giełda</a>
                         <a href="/kontakt" class="nav-item nav-link">Kontakt</a>
@@ -143,110 +148,45 @@
     </div>
     <!-- Header End -->
 
+    <!-- tytuł -->
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 20px;">
+        <h1 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 30px;">Wycieczka do Pragi </h1>
+       <p>
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ asset('assets/ver1/img/news_1.jpg')}});" title="Obraz autorstwa dgim-studio na Freepik">
-        <div class="container-fluid page-header py-5">
-            <div class="container text-center pb-5">
-                <h1 class="display-3 text-dark mb-3 animated slideInDown" style="margin-top: 30px;" id="władze">Zarząd</h1>
+        <h1 class="mb-5 ">    <i class="fa fa-file-alt text-primary me-2"></i> <a href="http://wzp.opole.pl/laraview/pdf/program_wycieczki_Praga_2023.pdf" >Program wycieczki</a></h1>
 
-            </div>
+
+       </p>
+
+    </div>
+    <!-- tytuł End -->
+
+
+
+
+    <!-- Galeria start -->
+    <div class="image-set container">
+        <div class="gallery gallery-columns-3">
+
+        <?php
+        /*  otwieramy folder z obrazami */
+        $dirname = "assets/ver1/img/praga2022/";
+        /* pobieramy nazwy plików z końcówką png,jpeg,jpg,gif */
+        $images = glob("$dirname*.{png,jpeg,jpg,gif}", GLOB_BRACE);
+
+        /* tworzymy pętlę w której wyświetlimy obrazy */
+        foreach($images as $image) {
+
+            /*  wyświetlamy jak zwykły obrazek tyle że w miejsce nazwy wpisujemy */ ?>
+        <a class="example-image-link gallery-item"  href="<?php echo $image; ?>" data-lightbox="example-set" data-title="">
+            <img class="example-image img-responsive" src="<?php echo $image; ?>" />
+        </a>
+            <?php
+        }
+        ?>
         </div>
     </div>
-    <!-- Page Header End -->
-
-    <!-- hex img Start -->
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h4 class="section-title text-center text-primary text-uppercase" style="margin-bottom: 30px;">Biuro WZP </h4>
-        <h1 class="mb-5">czynne: <span class="text-primary text-uppercase">wtorek, środa, czwartek - 8:30 do 14:30.</span></h1>
-
-
-    </div>
-
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-
-                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-left: 210px;">
-                    <div class="rounded shadow overflow-hidden">
-                        <div class="hex">
-                            <div class="hex-background">
-                                <img src="{{ asset('assets/ver1/img/a_ozog.jpg') }}">
-                            </div>
-                        </div>
-                        <div class="text-center p-3 mt-2">
-                             <h5 class="fw-bold mb-0">Prezes <br>Antoni Ożóg</h5>
-                             <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>+48 881 442 420</p> </small>
-                             <small><p class="mb-0"><i class="fa fa-envelope text-primary me-2"></i>antoniozog@o2.pl</p> </small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded shadow overflow-hidden">
-                        <div class="hex">
-                            <div class="hex-background">
-                                <img src="{{ asset('assets/ver1/img/h_nosewicz.jpg') }}">
-                            </div>
-                        </div>
-                        <div class="text-center p-3 mt-2">
-                            <h5 class="fw-bold mb-0">Wiceprezes<br> Henryk Nosewicz</h5>
-                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>509 669 071</p> </small>
-                            <small style="visibility: hidden;"><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2" style="visibility: hidden;"></i>509 669 071</p> </small>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded shadow overflow-hidden">
-                        <div class="hex">
-                            <div class="hex-background">
-                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
-                            </div>
-                        </div>
-                        <div class="text-center p-3 mt-2">
-                            <h5 class="fw-bold mb-0">Skarbnik<br> Konrad Tietz</h5>
-                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>665 317 586</p> </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded shadow overflow-hidden">
-                        <div class="hex">
-                            <div class="hex-background">
-                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
-                            </div>
-                        </div>
-                        <div class="text-center p-3 mt-2">
-                            <h5 class="fw-bold mb-0">Sekretarz <br>Janusz Iwasieczko</h5>
-                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>667 801 920</p> </small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded shadow overflow-hidden">
-                        <div class="hex">
-                            <div class="hex-background">
-                                <img src="{{ asset('assets/ver1/img/team-1.jpg') }}">
-                            </div>
-                        </div>
-                        <div class="text-center p-3 mt-2">
-                            <h5 class="fw-bold mb-0">Członek Zarządu<br> Jolanta Wojewódka</h5>
-                            <small><p class="mb-0"><i class="fa fa-mobile-alt text-primary me-2"></i>662 025 538</p> </small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
+    <!-- Galeria End -->
 
 
 
@@ -301,7 +241,7 @@
                         <div class="col-md-6">
                             <h6 class="section-title text-start text-dark text-uppercase mb-4">Związek</h6>
 
-                            <a class="btn btn-link" href="#władze">Władze</a>
+                            <a class="btn btn-link" href="/władze">Władze</a>
                             <a class="btn btn-link" href="/build">Koła terenowe</a>
                             <a class="btn btn-link" href="/">Aktualności</a>
 
